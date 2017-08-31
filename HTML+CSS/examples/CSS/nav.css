@@ -1,0 +1,78 @@
+body,dl,dd,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+/*导航条的样式设置*/
+.demo{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    background-color:#F9F9F9 ;
+    border-bottom: 1px solid #cccccc;
+}
+.nav{
+    width: 980px;
+    height: 100%;
+    border: 1px solid #B1191A;
+    margin: auto;
+    position: relative;
+}
+.nav .nav-left{
+    width: 180px;
+    height: 100%;
+    margin-left: 0;
+}
+.nav-left a{
+    display: inline-block;
+    color: #333333;
+    font-size: 8px;
+    margin-right: 8px;
+    /*去掉下划线*/
+    text-decoration: none;
+    cursor: pointer;
+    padding-top:7px;
+}
+a:hover{
+    color: #0000ff;
+}
+/*设置右边导航栏样式*/
+.nav .nav-right {
+   position: absolute;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border: 1px solid #0000ff;
+}
+.nav-right .ul{
+    position: relative;
+    height: 30px;
+}
+.ul li{
+    display: inline-block;
+    margin-right: 3px;
+}
+.ul li span{
+    font-size: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
