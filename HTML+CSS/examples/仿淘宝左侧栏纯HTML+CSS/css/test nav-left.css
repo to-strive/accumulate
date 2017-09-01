@@ -1,0 +1,83 @@
+/*初始值*/
+body,dl,dd,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+}
+a,dt{
+   text-decoration: none;  /*去掉下划线*/
+    color: #ffffff;
+    font-family: arial, helvetica, sans-serif;
+}
+ul li{
+    list-style-type: none;  /*去掉所有样式*/
+}
+
+
+/*初始值  end*/
+
+/*导航栏样式设置*/
+/*设置整个左侧栏的样式边框*/
+.demo{
+    width: 190px;
+    border: 1px solid #2dff2f;
+    margin: 30px 0 0 150px;
+}
+.demo h2{
+    background-color: #358000;
+    line-height: 33px;
+    padding-left: 12px;
+    font-size: 18px;
+}
+.nav h3{
+    line-height: 33px;
+    background-color: #559B0D;
+    text-align: center;
+}
+.nav dl{
+    background-color: #60A411;
+    white-space: nowrap;
+}
+.nav .a1 dt{
+    width: 30px;
+    float: left;
+    padding-left: 5px;
+    padding-top: 4px;
+}
+.nav .a1 dd{
+    line-height: 22px;
+    width: 150px;
+    float: left;
+    padding-top: 2px;
+}
+.a1 dd a{
+    line-height: 22px;
+    white-space: nowrap;
+    float: left;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.a1 .pop{
+    padding-bottom: 10px;
+    background-color: #fcfcfc;
+    min-height: 466px;
+    padding-left: 30px;
+    width: 640px;
+    padding-right: 30px;
+    display: none;
+    height: 464px;
+    border-top: medium none;
+    top: 0px;
+    border-right: #599900 2px solid;
+    padding-top: 10px;
+    left: 190px;
+    box-shadow: 4px 4px 5px -1px #999999;
+    -webkit-box-shadow: 4px 4px 5px -1px #999999;
+    -moz-box-shadow: 4px 4px 5px -1px #999999
+}
+/*导航栏样式设置  end*/
